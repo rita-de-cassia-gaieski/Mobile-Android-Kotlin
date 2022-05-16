@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExemploActivityEIntent</string>
+    <string name="btVerSegundaTela">"SEGUNDA TELA "</string>
+    <string name="btScreen2">Ver Tela 2</string>
+    <string name="tvScreen2">Olá, Você está na Tela 2!</string>
+    <string name="btDiscar">Ligar para a Profª</string>
+    <string name="etTelefone">Digite o Telefone com DDD:</string>
+    <string name="btNewUrl">Abrir Site</string>
+    <string name="etUrl">Digite a URL</string>
+
+</resources>

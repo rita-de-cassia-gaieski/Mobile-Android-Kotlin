@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btScreen2"
+        android:layout_width="292dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btScreen2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/etTelefone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btDiscar"
+        android:layout_width="279dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="201dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btDiscar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTelefone"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <EditText
+        android:id="@+id/etTelefone"
+        android:layout_width="327dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="@string/etTelefone"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/btNewUrl"
+        android:layout_width="234dp"
+        android:layout_height="84dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btNewUrl"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btDiscar"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <EditText
+        android:id="@+id/etUrl"
+        android:layout_width="261dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:hint="@string/etUrl"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btNewUrl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btDiscar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
